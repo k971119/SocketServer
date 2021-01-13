@@ -1,0 +1,5 @@
+C:\Users\hanyu\source\repos\SocketServer\XMLCommand\bin\Debug\XMLCommand.dll
+C:\Users\hanyu\source\repos\SocketServer\XMLCommand\bin\Debug\XMLCommand.pdb
+C:\Users\hanyu\source\repos\SocketServer\XMLCommand\obj\Debug\XMLCommand.csproj.CoreCompileInputs.cache
+C:\Users\hanyu\source\repos\SocketServer\XMLCommand\obj\Debug\XMLCommand.dll
+C:\Users\hanyu\source\repos\SocketServer\XMLCommand\obj\Debug\XMLCommand.pdb

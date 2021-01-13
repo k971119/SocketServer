@@ -1,0 +1,16 @@
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.exe
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.deps.json
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.runtimeconfig.json
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.runtimeconfig.dev.json
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\SocketServer.pdb
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csprojAssemblyReference.cache
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.AssemblyInfoInputs.cache
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.AssemblyInfo.cs
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.pdb
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.genruntimeconfig.cache
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\XMLCommand.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\XMLCommand.pdb
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CopyComplete
