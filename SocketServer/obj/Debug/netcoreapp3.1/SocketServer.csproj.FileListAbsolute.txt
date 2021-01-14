@@ -16,3 +16,9 @@ C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\XM
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CopyComplete
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\DataBaseManager.dll
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\DataBaseManager.pdb
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -74,7 +74,7 @@ namespace SocketServer
             client.BeginReceive(obj.Buffer, 0, 8192, 0, DataReceived, obj);
 
             Console.WriteLine(string.Format(@"클라이언트 {0}이(가) 연결되었습니다.", client.RemoteEndPoint));
-            db.InsertDB(string.Format("INSERT INTO CHAT(LOG_ADDRESS, LOG_CONNECTION, LOG_DATETIME) VALUES('{0}',{1},GETDATE())",obj.WorkingSocket.RemoteEndPoint.ToString(),1));
+            db.InsertDB(string.Format("INSERT INTO TB_CHAT_LOG(LOG_ADDRESS, LOG_CONNECTION, LOG_DATETIME) VALUES('{0}',{1},GETDATE())", obj.WorkingSocket.RemoteEndPoint.ToString(),1));
         }
 
         /// <summary>
@@ -106,6 +106,7 @@ namespace SocketServer
                 int index = 0;
                 foreach (Socket client in clients)
                 {
+                    if (clients.Count <= 1) { break; }
                     if (client != obj.WorkingSocket)             //메세지를 보낸 클라이언트를 제외한 모든 클라이언트에 메세지를 보냄
                     {
                         try
@@ -131,8 +132,7 @@ namespace SocketServer
             catch (SocketException se)                                                                  //클라이언트 강제 끊김 예외처리
             {
                 Console.WriteLine(string.Format("<{0}> 클라이언트 종료 ", obj.WorkingSocket.RemoteEndPoint.ToString()));
-                db.InsertDB(string.Format("INSERT INTO CHAT(LOG_ADDRESS, LOG_CONNECTION, LOG_DATETIME) VALUES('{0}',{1},GETDATE())", obj.WorkingSocket.RemoteEndPoint.ToString(), 0));
-                obj.WorkingSocket.Close();
+                db.InsertDB(string.Format("INSERT INTO TB_CHAT_LOG(LOG_ADDRESS, LOG_CONNECTION, LOG_DATETIME) VALUES('{0}',{1},GETDATE())", obj.WorkingSocket.RemoteEndPoint.ToString(), 0));
             }
         }
     }

@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DataBaseManager\DataBaseManager.csproj" />
     <ProjectReference Include="..\XMLCommand\XMLCommand.csproj" />
   </ItemGroup>
