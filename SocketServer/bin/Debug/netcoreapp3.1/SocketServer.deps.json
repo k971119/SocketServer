@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v3.1": {
       "SocketServer/1.0.0": {
         "dependencies": {
+          "DataBaseManager": "1.0.0",
           "XMLCommand": "1.0.0"
         },
         "runtime": {
           "SocketServer.dll": {}
+        }
+      },
+      "DataBaseManager/1.0.0": {
+        "runtime": {
+          "DataBaseManager.dll": {}
         }
       },
       "XMLCommand/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "SocketServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataBaseManager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

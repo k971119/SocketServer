@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataBaseManager\DataBaseManager.csproj" />
     <ProjectReference Include="..\XMLCommand\XMLCommand.csproj" />
   </ItemGroup>
 

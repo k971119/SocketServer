@@ -14,3 +14,5 @@ C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\So
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\XMLCommand.dll
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\XMLCommand.pdb
 C:\Users\hanyu\source\repos\SocketServer\SocketServer\obj\Debug\netcoreapp3.1\SocketServer.csproj.CopyComplete
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\DataBaseManager.dll
+C:\Users\hanyu\source\repos\SocketServer\SocketServer\bin\Debug\netcoreapp3.1\DataBaseManager.pdb

@@ -1,0 +1,6 @@
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\bin\Debug\DataBaseManager.dll
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\bin\Debug\DataBaseManager.pdb
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csprojAssemblyReference.cache
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csproj.CoreCompileInputs.cache
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.dll
+C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.pdb

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dv11Z0zko3eLqFylmjgifVScIvR8dYb31TqaHcCZ+rNvS/teJE8A3+SRnRMEXy3e48EGgDzwL7sULQB+wVat4Q==",
+  "dgSpecHash": "Dh2QokgZY5BdldJCpnlA+hDSDwKfhPeEXtVmsvP0EdDqHgB381cSlz8vkMVjhzcGCtJ0CkH8a+WhAdGO7tPvVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hanyu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\hanyu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

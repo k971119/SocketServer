@@ -1,5 +1,6 @@
 ﻿using System;
-using static System.Net.Mime.MediaTypeNames;
+using System.IO;
+using System.Drawing.Imaging;
 
 namespace SocketServer
 {
@@ -7,7 +8,10 @@ namespace SocketServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*************************************************서버를 시작합니다*************************************************!");
+            Console.WriteLine("*************************************************서버를 시작합니다*************************************************");
+            mSocket server = new mSocket();
+            server.StartServer();
+            Console.ReadLine();
         }
     }
 }

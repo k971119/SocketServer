@@ -4,6 +4,16 @@
     "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj": {}
   },
   "projects": {
+    "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj",
+        "projectName": "DataBaseManager",
+        "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,6 +38,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+                "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+              },
               "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
                 "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj"
               }
@@ -53,22 +66,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace XMLCommand
 {
     public class Command
     {
-        private static string _sPath = string.Empty;
+        public string _sPath = string.Empty;
 
         /// <summary>
         /// 2021-01-13<br></br>
@@ -27,7 +28,7 @@ namespace XMLCommand
         {
             _sPath = path + "\\" + xmlFile;
 
-            if (!System.IO.File.Exists(path + xmlFile))
+            if (!FileCheck(_sPath))
             {
                 Console.WriteLine("참조파일을 생성합니다.");
                 XmlTextWriter textWriter = new XmlTextWriter(_sPath,Encoding.UTF8);
@@ -40,7 +41,14 @@ namespace XMLCommand
 
                 textWriter.Close();
             }
+            Write("serverIP", "127.0.0.1");
+            Write("port","9999");
 
+        }
+
+        public bool FileCheck(string path)
+        {
+            return System.IO.File.Exists(path);
         }
 
         /// <summary>
@@ -77,6 +85,7 @@ namespace XMLCommand
         /// <param name="value"></param>
         public void Write(string name, string value)
         {
+            Debug.WriteLine("xml 추가");
             XmlDocument xml = new XmlDocument();
             xml.Load(_sPath);
 

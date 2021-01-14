@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "DataBaseManager/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataBaseManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataBaseManager.dll": {}
+        }
+      },
       "XMLCommand/1.0.0": {
         "type": "project",
         "compile": {
@@ -14,6 +23,11 @@
     }
   },
   "libraries": {
+    "DataBaseManager/1.0.0": {
+      "type": "project",
+      "path": "../DataBaseManager/DataBaseManager.csproj",
+      "msbuildProject": "../DataBaseManager/DataBaseManager.csproj"
+    },
     "XMLCommand/1.0.0": {
       "type": "project",
       "path": "../XMLCommand/XMLCommand.csproj",
@@ -22,6 +36,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DataBaseManager >= 1.0.0",
       "XMLCommand >= 1.0.0"
     ]
   },
@@ -52,6 +67,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+              "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+            },
             "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
               "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj"
             }
@@ -77,22 +95,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.10, 3.1.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
