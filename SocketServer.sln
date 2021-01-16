@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLCommand", "XMLCommand\XM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseManager", "DataBaseManager\DataBaseManager.csproj", "{B9137685-DB75-4BA4-A054-2FDB2D4B54E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityManager", "SecurityManager\SecurityManager.csproj", "{9C8BD6DE-75F7-4897-A038-175C396D53C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B9137685-DB75-4BA4-A054-2FDB2D4B54E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9137685-DB75-4BA4-A054-2FDB2D4B54E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9137685-DB75-4BA4-A054-2FDB2D4B54E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8BD6DE-75F7-4897-A038-175C396D53C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8BD6DE-75F7-4897-A038-175C396D53C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8BD6DE-75F7-4897-A038-175C396D53C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8BD6DE-75F7-4897-A038-175C396D53C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
