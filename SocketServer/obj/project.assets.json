@@ -133,6 +133,9 @@
       },
       "DataBaseManager/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "XMLCommand": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DataBaseManager.dll": {}
         },
@@ -489,11 +492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj",
+      "projectUniqueName": "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj",
       "projectName": "SocketServer",
-      "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj",
+      "projectPath": "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj",
       "packagesPath": "C:\\Users\\hanyu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\obj\\",
+      "outputPath": "D:\\VSProject\\SocketServer\\SocketServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hanyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -510,11 +513,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
-              "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+            "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+              "projectPath": "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
             },
-            "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
-              "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj"
+            "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
+              "projectPath": "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj"
             }
           }
         }

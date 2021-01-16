@@ -1,27 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj": {}
+    "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+    "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj",
+        "projectUniqueName": "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj",
         "projectName": "DataBaseManager",
-        "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+        "projectPath": "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
+                "projectPath": "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj"
+              }
+            }
+          }
+        }
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj": {
+    "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj",
+        "projectUniqueName": "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj",
         "projectName": "SocketServer",
-        "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\SocketServer.csproj",
+        "projectPath": "D:\\VSProject\\SocketServer\\SocketServer\\SocketServer.csproj",
         "packagesPath": "C:\\Users\\hanyu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\SocketServer\\obj\\",
+        "outputPath": "D:\\VSProject\\SocketServer\\SocketServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hanyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,11 +47,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
-                "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
+              "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj": {
+                "projectPath": "D:\\VSProject\\SocketServer\\DataBaseManager\\DataBaseManager.csproj"
               },
-              "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
-                "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj"
+              "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
+                "projectPath": "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj"
               }
             }
           }
@@ -81,11 +90,11 @@
         }
       }
     },
-    "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
+    "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj",
+        "projectUniqueName": "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj",
         "projectName": "XMLCommand",
-        "projectPath": "C:\\Users\\hanyu\\source\\repos\\SocketServer\\XMLCommand\\XMLCommand.csproj"
+        "projectPath": "D:\\VSProject\\SocketServer\\XMLCommand\\XMLCommand.csproj"
       },
       "frameworks": {
         "net472": {}

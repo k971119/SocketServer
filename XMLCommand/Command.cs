@@ -17,14 +17,10 @@ namespace XMLCommand
         /// <summary>
         /// 2021-01-13<br></br>
         /// 고한열<br></br><br></br>
-        /// 클래스 선언 및 xml파일 유무 확인후 생성<br></br>
-        /// <br></br>
-        /// 생성 노드 
-        /// <br></br>
-        /// serverIP<br></br>
-        /// port
+        /// 클래스 선언 및 xml파일 유무 확인후 파일 생성<br></br>
+        /// <br></br><br></br>
         /// </summary>
-        public Command(string path, string xmlFile)
+        public Command(string path, string xmlFile,string Element)
         {
             _sPath = path + "\\" + xmlFile;
 
@@ -35,17 +31,22 @@ namespace XMLCommand
                 textWriter.Formatting = Formatting.Indented;
 
                 textWriter.WriteStartDocument();
-                textWriter.WriteStartElement("server");
+                textWriter.WriteStartElement(Element);
 
                 textWriter.WriteEndDocument();
 
                 textWriter.Close();
             }
-            Write("serverIP", "127.0.0.1");
-            Write("port","9999");
 
         }
 
+        /// <summary>
+        /// 2021-01-13<br></br>
+        /// 고한열<br></br><br></br>
+        /// xml파일 유무 체크
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public bool FileCheck(string path)
         {
             return System.IO.File.Exists(path);
@@ -77,6 +78,32 @@ namespace XMLCommand
         }
 
         /// <summary>
+        /// 2021-01-16<br></br>
+        /// 고한열<br></br><br></br>
+        /// Element 지정 XML 노드 읽기
+        /// </summary>
+        /// <param name="element"></param>
+        /// <param name="nodeName"></param>
+        /// <returns></returns>
+        public string Read(string element, string nodeName)
+        {
+            XmlDocument xml = new XmlDocument();
+            xml.Load(_sPath);
+
+            XmlElement root = xml.GetElementById(element);
+
+            XmlNodeList nodes = xml.GetElementsByTagName(element);//root.ChildNodes;
+            foreach (XmlNode node in nodes)
+            {
+                if (node.Name == nodeName)
+                {
+                    return node.InnerText;
+                }
+            }
+            return "";
+        }
+
+        /// <summary>
         /// 2021-01-13<br></br>
         /// 고한열<br></br><br></br>
         /// XML 노드 생성
@@ -90,6 +117,29 @@ namespace XMLCommand
             xml.Load(_sPath);
 
             XmlElement root = xml.DocumentElement;
+
+            XmlNode node = xml.CreateElement(string.Empty, name, string.Empty);
+            node.InnerXml = value;
+            root.AppendChild(node);
+            xml.Save(_sPath);
+
+        }
+
+        /// <summary>
+        /// 2021-01-16<br></br>
+        /// 고한열<br></br><br></br>
+        /// Element 지정 XML 노드 생성
+        /// </summary>
+        /// <param name="element"></param>
+        /// <param name="name"></param>
+        /// <param name="value"></param>
+        public void Write(string element, string name, string value)
+        {
+            Debug.WriteLine("xml 추가");
+            XmlDocument xml = new XmlDocument();
+            xml.Load(_sPath);
+
+            XmlElement root = xml.GetElementById(element);
 
             XmlNode node = xml.CreateElement(string.Empty, name, string.Empty);
             node.InnerXml = value;

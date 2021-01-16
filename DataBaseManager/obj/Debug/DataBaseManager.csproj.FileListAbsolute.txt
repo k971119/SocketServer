@@ -4,3 +4,12 @@ C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManag
 C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csproj.CoreCompileInputs.cache
 C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.dll
 C:\Users\hanyu\source\repos\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.pdb
+D:\VSProject\SocketServer\DataBaseManager\bin\Debug\DataBaseManager.dll
+D:\VSProject\SocketServer\DataBaseManager\bin\Debug\DataBaseManager.pdb
+D:\VSProject\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csprojAssemblyReference.cache
+D:\VSProject\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csproj.CoreCompileInputs.cache
+D:\VSProject\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.dll
+D:\VSProject\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.pdb
+D:\VSProject\SocketServer\DataBaseManager\bin\Debug\XMLCommand.dll
+D:\VSProject\SocketServer\DataBaseManager\bin\Debug\XMLCommand.pdb
+D:\VSProject\SocketServer\DataBaseManager\obj\Debug\DataBaseManager.csproj.CopyComplete

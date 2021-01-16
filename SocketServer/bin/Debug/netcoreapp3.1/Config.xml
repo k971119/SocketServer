@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <serverIP>127.0.0.1</serverIP>
+  <port>9999</port>
+  <DBName>Chat</DBName>
+  <DBAddress>192.168.0.116</DBAddress>
+  <DBAcount>sa</DBAcount>
+  <DBPass>admin123!@#</DBPass>
+</Config>

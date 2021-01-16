@@ -92,6 +92,9 @@
       },
       "System.Security.Principal.Windows/4.7.0": {},
       "DataBaseManager/1.0.0": {
+        "dependencies": {
+          "XMLCommand": "1.0.0"
+        },
         "runtime": {
           "DataBaseManager.dll": {}
         }

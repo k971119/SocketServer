@@ -15,7 +15,9 @@ namespace SocketServer
         private IPAddress ipAddress = null;
         private int port = 0;
 
-        DataBaseManager.DBManagement db = new DataBaseManager.DBManagement("192.168.0.116", "Chat", "sa", "admin123!@#");
+        DataBaseManager.DBManagement db = new DataBaseManager.DBManagement();
+        XMLCommand.Command comm = new XMLCommand.Command(System.IO.Directory.GetCurrentDirectory(), "Config.xml", "DBConfig");
+        
 
         /// <summary>
         /// 2021-01-13<br></br>
@@ -24,10 +26,27 @@ namespace SocketServer
         /// </summary>
         public mSocket()
         {
-            XMLCommand.Command cmd = new XMLCommand.Command(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "ServerConfig.xml");
-            Console.WriteLine(cmd._sPath);
-            ipAddress = IPAddress.Parse(cmd.Read("serverIP"));
-            port = Convert.ToInt32(cmd.Read("port"));
+            #region 서버 생성 정보 생성
+            XMLCommand.Command cmd = new XMLCommand.Command(/*Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)*/System.IO.Directory.GetCurrentDirectory(), "Config.xml", "Config");
+            if (cmd.Read("serverIP") != "")
+            {
+                ipAddress = IPAddress.Parse(cmd.Read("serverIP"));
+            }
+            else
+            {
+                cmd.Write("serverIP", "127.0.0.1");
+                ipAddress = IPAddress.Parse(cmd.Read("serverIP"));
+            }
+            if (cmd.Read("port") != "")
+            {
+                port = Convert.ToInt32(cmd.Read("port"));
+            }
+            else
+            {
+                cmd.Write("port", "9999");
+                port = Convert.ToInt32(cmd.Read("port"));
+            }
+            #endregion
             _WorkSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
         }
 

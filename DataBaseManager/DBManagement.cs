@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XMLCommand;
 
 namespace DataBaseManager
 {
@@ -12,9 +13,10 @@ namespace DataBaseManager
     {
         private SqlConnection conn = null;
 
-        public DBManagement(string ip, string db, string id, string pw)
+        public DBManagement()
         {
-            string connectionString = string.Format("Server={0}; Database={1}; uid={2};pwd={3}", ip, db, id, pw);
+            XMLCommand.Command cmd = new XMLCommand.Command(System.IO.Directory.GetCurrentDirectory(),"Config.xml","Config");
+            string connectionString = string.Format("Server={0}; Database={1}; uid={2};pwd={3}", cmd.Read("DBAddress"), cmd.Read("DBName"), cmd.Read("DBAcount"), cmd.Read("DBPass"));
             conn = new SqlConnection(connectionString);
         }
 
